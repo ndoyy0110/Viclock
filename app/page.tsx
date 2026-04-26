@@ -182,7 +182,7 @@ export default function Header() {
 
           {/* Teks */}
           <div className="w-full md:w-5/12 flex flex-col justify-center text-center md:text-left">
-            <p className="text-white/30 uppercase mb-4" style={{ fontSize: 11, letterSpacing: '0.3em' }}>01 — Product</p>
+            <p className="text-white/30 uppercase mb-4" style={{ fontSize: 11, letterSpacing: '0.3em' }}>Redefining Industry Standards</p>
             <h1 className="anim-2 text-white uppercase font-black text-[40px] sm:text-[54px] md:text-[64px] lg:text-[72px] leading-[0.88]">
               VICLOCK™
             </h1>
@@ -219,7 +219,7 @@ export default function Header() {
             className="text-black/30 uppercase mb-3"
             style={{ fontSize: 11, letterSpacing: '0.3em' }}
           >
-            02 — Introduction
+            Pioneering the Next Era
           </p>
 
           <h1 className="text-black uppercase font-black text-[40px] sm:text-[54px] md:text-[68px] leading-[0.9]">
@@ -247,7 +247,7 @@ export default function Header() {
 
               <h2
                 className="text-black font-bold uppercase mb-5"
-                style={{ fontSize: 18, letterSpacing: '0.1em' }}
+                style={{ fontSize: 18, letterSpacing: '0.01em' }}
               >
                 Modular Carbon Capture. Engineered for Real Industry
               </h2>
@@ -327,9 +327,9 @@ export default function Header() {
       <section id="Advantages" className="relative w-full bg-white overflow-hidden" style={{ minHeight: '100vh' }}>
         {/* Header */}
         <div className="pt-20 pb-2 flex flex-col items-center text-center px-6">
-          <p className="text-black/30 uppercase mb-3" style={{ fontSize: 11, letterSpacing: '0.3em' }}>02 — Detail</p>
+          <p className="text-black/30 uppercase mb-3" style={{ fontSize: 11, letterSpacing: '0.3em' }}>The Architecture of Tomorrow</p>
           <h1 className="text-black uppercase font-black text-[40px] sm:text-[54px] md:text-[68px] leading-[0.9]">
-            Our Advantages
+            Distinctions
           </h1>
           <div className="w-16 h-[2px] bg-black mt-5" />
         </div>
@@ -505,7 +505,7 @@ export default function Header() {
 
           {/* Header */}
           <div className="flex flex-col items-center text-center mb-16">
-            <p className="text-black/30 uppercase mb-3" style={{ fontSize: 11, letterSpacing: '0.3em' }}>03 — Technology</p>
+            <p className="text-black/30 uppercase mb-3" style={{ fontSize: 11, letterSpacing: '0.3em' }}>The Catalyst of Innovation</p>
             <h1 className="text-black uppercase font-black text-[40px] sm:text-[54px] md:text-[68px] leading-[0.9]">
               FEATURES
             </h1>
@@ -657,7 +657,7 @@ export default function Header() {
       >
         {/* Header */}
         <div className="flex flex-col items-center text-center mb-20">
-          <p className="text-black/30 uppercase mb-3" style={{ fontSize: 11, letterSpacing: '0.3em' }}>04 — Team</p>
+          <p className="text-black/30 uppercase mb-3" style={{ fontSize: 11, letterSpacing: '0.3em' }}>Behind the Future Mind</p>
           <h1 className="text-black uppercase font-black text-[48px] sm:text-[64px] md:text-[76px] leading-[0.9]">
             FOUNDER
           </h1>
@@ -673,14 +673,14 @@ export default function Header() {
               {[
                 {
                   name: 'Naohide Kiyosawa',
-                  desc: 'Mechanical Engineer',
-                  role: 'Founder & CEO',
+                  desc: 'Mechanical Engineering',
+                  role: 'Manufacturing Lead',
                   image: '/image/nao-jaz.png',
                 },
                 {
                   name: 'Ivo Albert Gabriel',
-                  desc: 'Mechanical Engineer',
-                  role: 'Co-Chair',
+                  desc: 'Mechanical Engineering',
+                  role: 'Mechanical Designer',
                   image: '/image/ivo-jaz.png',
                 },
               ].map((p, i) => (
@@ -717,18 +717,18 @@ export default function Header() {
             {
               name: 'Muhammad Shakil Fattan',
               desc: 'Industrial Engineering',
-              role: 'Co-Chair',
+              role: 'Industrial Analyst',
               image: '/image/fatan-jaz.png',
             },
             {
               name: 'Ananda Krishna Murti',
               desc: 'Accounting',
-              role: 'Co-Chair',
+              role: 'Finance and Market Analyst',
               image: '/image/nanda.jpeg',
             },
             {
               name: 'Sendi Seniora',
-              desc: 'Software Engineer',
+              desc: 'Software Engineering',
               role: 'Fullstack Developer',
               image: '/image/sendi-jaz.png',
             },
@@ -763,7 +763,7 @@ export default function Header() {
 
         {/* Header (DOSPEM) */}
         <div className="flex flex-col items-center text-center mt-20 mb-20">
-          <p className="text-black/30 uppercase mb-3" style={{ fontSize: 11, letterSpacing: '0.3em' }}>04 — Team</p>
+          <p className="text-black/30 uppercase mb-3" style={{ fontSize: 11, letterSpacing: '0.3em' }}>Behind the Future Mind</p>
           <h1 className="text-black uppercase font-black text-[48px] sm:text-[64px] md:text-[76px] leading-[0.9]">
             AdVISOR
           </h1>
@@ -777,7 +777,7 @@ export default function Header() {
               {[
                 {
                   name: 'Dr. Akmal Irfan Majid, S.T., M.Eng.',
-                  desc: 'Mechanical Engineer',
+                  desc: 'Lecturer at Gadjah Mada University',
                   role: 'Professional Advisor',
                   image: '/image/MAJID.jpeg',
                 },
@@ -800,9 +800,6 @@ export default function Header() {
                   <div>
                     <p className="font-semibold text-black group-hover:text-white text-sm tracking-wide transition-colors duration-300">
                       {p.name}
-                    </p>
-                    <p className="text-black/40 group-hover:text-white/50 text-xs mt-1 tracking-wide transition-colors duration-300">
-                      {p.desc}
                     </p>
                     <p className="text-pink-500 text-xs mt-2 tracking-wide">
                       {p.role}
@@ -827,10 +824,10 @@ export default function Header() {
             className="text-white/70 hover:text-white transition-colors"
             style={{ fontSize: 13, letterSpacing: '0.15em' }}
           >
-            siapa@lomba.com
+            viclockrenewable@gmail.com
           </a>
           <a
-            href="mailto:youremail@example.com"
+            href="mailto:viclockrenewable@gmail.com"
             className="mt-3 border border-white/25 hover:border-white/70 hover:bg-white hover:text-black px-8 py-3 uppercase transition-all duration-300 inline-block"
             style={{ fontSize: 10, letterSpacing: '0.3em' }}
           >
