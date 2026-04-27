@@ -777,7 +777,6 @@ export default function Header() {
               {[
                 {
                   name: 'Dr. Akmal Irfan Majid, S.T., M.Eng.',
-                  desc: 'Lecturer at Gadjah Mada University',
                   role: 'Professional Advisor',
                   image: '/image/MAJID.jpeg',
                 },
