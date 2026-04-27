@@ -253,29 +253,47 @@ export default function Header() {
               </h2>
 
               <p
-                className="text-black/80 text-justify"
-                style={{ fontSize: 14, lineHeight: 1.5 }}
-              >
-                Industrial decarbonization demands more than just capture—it requires efficiency, integration, and permanence.
-                VICLOCK is a modular ICCU platform that combines advanced gas conditioning, low-energy adsorption, and direct carbon locking within a single system.
-                
-                <br /><br />
-                
-                Built on a radial-flow moving bed architecture, VICLOCK minimizes pressure drop while maximizing gas–solid contact efficiency.
-                The system operates using low-grade waste heat, avoiding the high energy penalties associated with conventional solvent-based technologies,
-                where regeneration can consume over 50% of total process energy.
-                
-                <br /><br />
-                
-                Rather than treating CO₂ as a waste stream, VICLOCK converts it into stable solid carbonates through integrated mineralization,
-                eliminating the need for transport and long-term storage infrastructure.
-                Designed as a fully modular platform, VICLOCK scales through parallel deployment, enabling flexible integration across industrial emission points
-                while maintaining consistent performance under variable flow conditions.
-                
-                <br /><br />
-                
-                From flue gas to fixed carbon, VICLOCK transforms carbon management into a controlled, scalable, and cost-efficient industrial process.
-              </p>
+              className="text-black/80 text-left tracking-[0.01em]"
+              style={{
+                fontSize: 15,
+                lineHeight: 1.2,
+                fontWeight: 400,
+                fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif'
+              }}
+            >
+              Industrial decarbonization demands more than just capture—it requires efficiency, integration, and permanence.
+
+              <br /><br />
+
+              <span className="font-semibold text-black">
+                VICLOCK is a modular ICCU platform
+              </span> that combines advanced gas conditioning, low-energy adsorption, and direct carbon locking within a single system.
+
+              <br /><br />
+
+              Built on a radial-flow moving bed architecture, VICLOCK minimizes pressure drop while maximizing gas–solid contact efficiency.
+              The system operates using low-grade waste heat, avoiding the high energy penalties associated with conventional solvent-based technologies,
+              where regeneration can consume over 50% of total process energy.
+
+              <br /><br />
+
+              <span className="font-semibold text-black">
+                Rather than treating CO₂ as a waste stream
+              </span>, VICLOCK converts it into stable solid carbonates through integrated mineralization,
+              eliminating the need for transport and long-term storage infrastructure.
+
+              <br /><br />
+
+              Designed as a fully modular platform, VICLOCK scales through parallel deployment, enabling flexible integration across industrial emission points
+              while maintaining consistent performance under variable flow conditions.
+
+              <br /><br />
+
+              <span className="font-semibold text-black">
+                From flue gas to fixed carbon
+              , VICLOCK transforms carbon management into a controlled, scalable, and cost-efficient industrial process.
+              </span>
+            </p>
 
             </div>
           </div>
